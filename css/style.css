@@ -1205,3 +1205,18 @@ button, input, textarea {
 .fade-in {
     animation: fadeIn 0.6s ease-out;
 }
+/* Header — botão/link "Área restrita" com alto contraste */
+.nav__btn,
+a.nav__btn {
+  color: #F9FBFD !important;              /* branco neve */
+  border: 1px solid rgba(249,251,253,.75) !important;
+  background: rgba(249,251,253,.10) !important;
+  box-shadow: none !important;            /* remove qualquer 3D */
+}
+
+.nav__btn:hover,
+a.nav__btn:hover {
+  background: rgba(249,251,253,.18) !important;
+  border-color: #F9FBFD !important;
+  color: #F9FBFD !important;
+}
