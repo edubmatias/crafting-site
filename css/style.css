@@ -483,7 +483,7 @@ button, input, textarea {
 .hero__subtitle {
     font-size: 1.5rem;
     font-weight: var(--font-light);
-    color: var(--color-ambar-queimado);
+    color: #D8BA94;
     margin-bottom: 1.5rem;
 }
 
